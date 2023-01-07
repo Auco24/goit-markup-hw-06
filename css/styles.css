@@ -830,12 +830,17 @@ label {
 	display: block;
 	width: 12px;
 	height: 12px;
+  top: 50%;
+  left: 19px;
 	fill: var(--color-title-background);
 position: absolute;
 	transition: fill var(--animation);
 }
 
 
+.name-phone-email:focus + .modal-input-img .ico-modal {
+	fill: var(--color-studio);
+}
 
 
 .name-phone-email-comment {
