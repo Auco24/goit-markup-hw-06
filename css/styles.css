@@ -805,6 +805,7 @@ label {
 }
 
 .name-phone-email {
+  padding-left: 38px;
   outline: none;
   margin-top: 4px;
   box-sizing: border-box;
